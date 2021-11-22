@@ -6,66 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a8aed90-c1e4-45ce-b019-ceeb82791f49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAME2014A2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAME2014A2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/daxbotsheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/daxbotsheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/blockerBody.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/blockerBody.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/blockerMad.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/blockerMad.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/blockerSad.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/blockerSad.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/fishDead.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/fishDead.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/fishSwim1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/fishSwim1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/fishSwim2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/fishSwim2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/flyDead.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/flyDead.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/flyFly1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/flyFly1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/flyFly2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/flyFly2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/pokerMad.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/pokerMad.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/pokerSad.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/pokerSad.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/slimeDead.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/slimeDead.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/slimeWalk1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/slimeWalk1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/slimeWalk2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/slimeWalk2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/snailShell.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/snailShell.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/snailShell_upsidedown.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/snailShell_upsidedown.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/snailWalk1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/snailWalk1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/snailWalk2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/Enemies/snailWalk2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_0.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_5.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_6.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_7.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_8.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_9.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_coins.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_coins.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_gem_blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_gem_blue.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_gem_green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_gem_green.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_gem_red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_gem_red.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_gem_yellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_gem_yellow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_heartEmpty.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_heartEmpty.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_heartFull.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_heartFull.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_heartHalf.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_heartHalf.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyBlue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyBlue.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyBlue_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyBlue_disabled.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyGreem_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyGreem_disabled.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyGreen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyGreen.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyRed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyRed.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyRed_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyRed_disabled.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyYellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyYellow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyYellow_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_keyYellow_disabled.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p1Alt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p1Alt.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p2Alt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p2Alt.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p3Alt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_p3Alt.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_spritesheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/KenneyComplete/Base pack/HUD/hud_spritesheet.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Script/PlayerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/PlayerBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/AndroidLogcatSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/AndroidLogcatSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1637517646784</updated>
       <workItem from="1637517651419" duration="4000" />
-      <workItem from="1637519317889" duration="5560000" />
+      <workItem from="1637519317889" duration="6159000" />
+      <workItem from="1637551996576" duration="95000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,8 @@
+///By Jing Yuan Cheng 101257237
+/// PlayerBehavior Script
+/// this script is about player movement and physic 
+/// Version 1.0
+/// Last edited on Nov 21 2021
 using System;
 using System.Collections;
 using System.Collections.Generic;
