@@ -15,6 +15,10 @@ public class PlayerBehavior : MonoBehaviour
     public float horizontalForce;
     public float verticalForce;
     public bool isGrounded;
+    public Transform groundOrigin;
+    public float groundRadius;
+    public LayerMask groundLayerMask;
+    
     
     private Rigidbody2D _rigidbody2D;
     
@@ -25,7 +29,7 @@ public class PlayerBehavior : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Move();
         CheckIfGrounded();
@@ -40,12 +44,18 @@ public class PlayerBehavior : MonoBehaviour
     {
         if (isGrounded)
         {
-            float deltaTime = Time.deltaTime;
+            //float deltaTime = Time.deltaTime;
         
             //Keyboard Input
             float x = Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical");
             float jump = Input.GetAxisRaw("Jump");
+            
+            //Check for flip 
+            if (x != 0)
+            {
+                x = FlipAnimation(x);
+            }
 
             //Touch Input
             Vector2 worldTouch = new Vector2();
@@ -54,8 +64,8 @@ public class PlayerBehavior : MonoBehaviour
                 worldTouch = Camera.main.ScreenToWorldPoint(touch.position);
             }
 
-            float horizontalMoveForce = x * horizontalForce * deltaTime;
-            float jumpMoveForce = jump * verticalForce * deltaTime;
+            float horizontalMoveForce = x * horizontalForce;//* deltaTime;
+            float jumpMoveForce = jump * verticalForce;// * deltaTime;
 
             float mass = _rigidbody2D.mass * _rigidbody2D.gravityScale;
         
@@ -65,10 +75,6 @@ public class PlayerBehavior : MonoBehaviour
        
     }
 
-    private void CheckIfGrounded()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -78,6 +84,28 @@ public class PlayerBehavior : MonoBehaviour
     private void OnCollisionExit2D(Collision2D other)
     {
         isGrounded = false;
+    }
+    
+    private void CheckIfGrounded()
+    {
+        RaycastHit2D hit =
+            Physics2D.CircleCast(groundOrigin.position, groundRadius, Vector2.down, groundRadius, groundLayerMask);
+        isGrounded = (hit) ? true : false;
+    }
+
+    private float FlipAnimation(float x)
+    {
+        //depending on direction scale across the x-axis either 1 or -1
+        x = (x > 0) ? 1 : -1;
+        transform.localScale = new Vector3(x, 1.0f);
+        return x;
+    }
+    
+    
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(groundOrigin.position,groundRadius);
     }
 }
     
