@@ -1,3 +1,8 @@
+///By Jing Yuan Cheng 101257237
+/// LavaController Script
+/// 
+/// Version 1.0
+/// Last edited on Dec 11 2021
 using System;
 using System.Collections;
 using System.Collections.Generic;

@@ -1,8 +1,8 @@
 ///By Jing Yuan Cheng 101257237
 /// PlayerBehavior Script
-/// this script is about player movement and physic 
-/// Version 1.0
-/// Last edited on Nov 21 2021
+/// 
+/// Version 2.0
+/// Last edited on Dec 11 2021
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -102,17 +102,6 @@ public class PlayerBehavior : MonoBehaviour
         }
        
     }
-
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        isGrounded = true;
-    }
-
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        isGrounded = false;
-    }
     
     private void CheckIfGrounded()
     {
@@ -135,5 +124,23 @@ public class PlayerBehavior : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(groundOrigin.position,groundRadius);
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Platform"))
+        {
+            transform.SetParent(other.transform);
+        }
+        
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Platform"))
+        {
+            transform.SetParent(null);
+        }
+    }
+    
 }
     
