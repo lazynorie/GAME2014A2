@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8aed90-c1e4-45ce-b019-ceeb82791f49" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAME2014A2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAME2014A2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/BlockController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/BlockController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/MovingPlatformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/MovingPlatformController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/MovingPlatformDirection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/MovingPlatformDirection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/PlayerAnimationStates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/PlayerAnimationStates.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Script/PlayerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/PlayerBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +54,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build/GAME2014A2.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\GBCs5\GAME2014\Assignment2\GAME2014A2\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -76,7 +94,7 @@
       <workItem from="1637517651419" duration="4000" />
       <workItem from="1637519317889" duration="6159000" />
       <workItem from="1637551996576" duration="95000" />
-      <workItem from="1639248127673" duration="20108000" />
+      <workItem from="1639248127673" duration="23783000" />
     </task>
     <servers />
   </component>
