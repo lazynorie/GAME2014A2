@@ -21,12 +21,13 @@ public class PlayerBehavior : MonoBehaviour
     
     
     private Rigidbody2D _rigidbody2D;
-    
+    private Animator animatorcontroller;
     
 
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        animatorcontroller = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -55,6 +56,11 @@ public class PlayerBehavior : MonoBehaviour
             if (x != 0)
             {
                 x = FlipAnimation(x);
+                animatorcontroller.SetInteger("AnimationState",1);//Run state
+            }
+            else
+            {
+                animatorcontroller.SetInteger("AnimationState",0);//Idle state
             }
 
             //Touch Input
@@ -71,6 +77,10 @@ public class PlayerBehavior : MonoBehaviour
         
             _rigidbody2D.AddForce(new Vector2(horizontalMoveForce, jumpMoveForce));
             _rigidbody2D.velocity *= 0.99f;//Scaling/Stopping
+        }
+        else
+        {
+            animatorcontroller.SetInteger("AnimationState",2);//jumping state
         }
        
     }
