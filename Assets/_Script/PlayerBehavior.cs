@@ -8,9 +8,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerBehavior : MonoBehaviour
 {
+    [Header("Health")] public int healthPoint;
+    public Text healthText;
     [Header("Touch Input")] 
     public Joystick joystick;
     
@@ -28,6 +31,11 @@ public class PlayerBehavior : MonoBehaviour
     [Header("Animation")] 
     public PlayerAnimationStates state;
     
+    [Header("Sound FX")] 
+    public List<AudioClip> SoundClip;
+    public AudioSource audioSource;
+    
+    
     private Rigidbody2D _rigidbody2D;
     private Animator animatorcontroller;
     
@@ -38,16 +46,32 @@ public class PlayerBehavior : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         animatorcontroller = GetComponent<Animator>();
+
+        healthPoint = 3;
         
+        //Assign sounds
+        
+        
+
+
     }
 
     void FixedUpdate()
     {
+        
+        
         Move();
         CheckIfGrounded();
+        CheckIfDead();
+        healthText.text = "LIFE:" + healthPoint.ToString();
+       
+    }
 
-        if (Input.GetKeyDown(KeyCode.G))
+    private void CheckIfDead()
+    {
+        if (healthPoint <=0)
         {
+            Debug.Log("Game Over");
             SceneManager.LoadScene("GameOver");
         }
     }
@@ -62,6 +86,12 @@ public class PlayerBehavior : MonoBehaviour
             //Keyboard Input
             float y = Input.GetAxis("Vertical") + joystick.Vertical;
             float jump = Input.GetAxisRaw("Jump") + ((UIController.jumpButtonDown)?1.0f:0.0f);
+
+            if (jump>0)
+            {
+                audioSource.clip = SoundClip[0];
+                audioSource.Play();
+            }
             //Check for flip 
             if (x != 0)
             {

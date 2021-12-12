@@ -9,14 +9,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
 
 
 public class UIController : MonoBehaviour
 {
+
+    public PlayerBehavior player;
     [Header("On Screen Controls")] public GameObject onScreenControls;
 
     [Header("Button Control Events")]
     public static bool jumpButtonDown;
+
+    
     
     
     // Start is called before the first frame update

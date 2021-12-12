@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "emulator-5554",
         "name": "ca.JingYuanCheng.GAME2014A2",
-        "processId": 3501,
+        "processId": 2659,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,12 @@
             "deviceId": "emulator-5554",
             "name": "ca.JingYuanCheng.GAME2014A2",
             "processId": 3501,
+            "exited": false
+        },
+        {
+            "deviceId": "emulator-5554",
+            "name": "ca.JingYuanCheng.GAME2014A2",
+            "processId": 2659,
             "exited": false
         }
     ],
