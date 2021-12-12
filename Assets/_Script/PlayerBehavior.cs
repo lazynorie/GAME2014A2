@@ -144,6 +144,8 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
     
+    
+    
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
