@@ -17,7 +17,8 @@ public class PlayerBehavior : MonoBehaviour
     public bool isGrounded;
     public Transform groundOrigin;
     public float groundRadius;
-    public LayerMask groundLayerMask;
+    //public LayerMask groundLayerMask;
+    public LayerMask groundLayerMask,blockLayerMask,enemyLayMask;
     [Range(0.1f,0.9f)]
     public float airControllfactor;
 
@@ -32,6 +33,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         animatorcontroller = GetComponent<Animator>();
+        
     }
 
     void FixedUpdate()
@@ -82,7 +84,7 @@ public class PlayerBehavior : MonoBehaviour
             float mass = _rigidbody2D.mass * _rigidbody2D.gravityScale;
         
             _rigidbody2D.AddForce(new Vector2(horizontalMoveForce, jumpMoveForce) * mass);
-            _rigidbody2D.velocity *= 0.99f;//Scaling/Stopping
+            _rigidbody2D.velocity *= 0.90f;//Scaling/Stopping
         }
         else //Air Control
         {
@@ -104,10 +106,14 @@ public class PlayerBehavior : MonoBehaviour
     }
     
     private void CheckIfGrounded()
-    {
-        RaycastHit2D hit =
-            Physics2D.CircleCast(groundOrigin.position, groundRadius, Vector2.down, groundRadius, groundLayerMask);
-        isGrounded = (hit) ? true : false;
+    { 
+        RaycastHit2D hitPlatform =
+                Physics2D.CircleCast(groundOrigin.position, groundRadius, Vector2.down, groundRadius, groundLayerMask);
+        RaycastHit2D hitBlock =
+            Physics2D.CircleCast(groundOrigin.position, groundRadius, Vector2.down, groundRadius, blockLayerMask);
+        RaycastHit2D hitEnemy =
+            Physics2D.CircleCast(groundOrigin.position, groundRadius, Vector2.down, groundRadius, enemyLayMask);
+        isGrounded = (hitPlatform||hitBlock||hitEnemy) ? true : false;
     }
 
     private float FlipAnimation(float x)
@@ -119,11 +125,7 @@ public class PlayerBehavior : MonoBehaviour
     }
     
     
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(groundOrigin.position,groundRadius);
-    }
+  
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -140,6 +142,12 @@ public class PlayerBehavior : MonoBehaviour
         {
             transform.SetParent(null);
         }
+    }
+    
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(groundOrigin.position,groundRadius);
     }
     
 }

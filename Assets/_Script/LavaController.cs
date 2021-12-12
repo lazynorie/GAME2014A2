@@ -12,6 +12,7 @@ public class LavaController : MonoBehaviour
 {
 
     public GameObject playerSpawnPoint;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,5 +31,10 @@ public class LavaController : MonoBehaviour
         {
             other.transform.position = playerSpawnPoint.transform.position;
         }
+        else if (other.gameObject.CompareTag("Enemy"))
+        {
+            other.gameObject.SetActive(false);
+        }
+
     }
 }
