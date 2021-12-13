@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8aed90-c1e4-45ce-b019-ceeb82791f49" name="Changes" comment="" />
+    <list default="true" id="8a8aed90-c1e4-45ce-b019-ceeb82791f49" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAME2014A2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAME2014A2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Level1Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Level1Timeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sequences/StartMenuTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/StartMenuTimeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/World.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/World.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/GameOver.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Tutorial.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/LavaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/LavaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/MainMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/PlayerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/PlayerBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +28,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Script/CheckPointController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CoinController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Script/PlayerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Ensure/EnsureThat.Objects.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Script/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TheEnd.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Script/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Script/LavaController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Script/JumpSoundClip.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,7 +103,7 @@
       <workItem from="1637517651419" duration="4000" />
       <workItem from="1637519317889" duration="6159000" />
       <workItem from="1637551996576" duration="95000" />
-      <workItem from="1639248127673" duration="36705000" />
+      <workItem from="1639248127673" duration="42553000" />
     </task>
     <servers />
   </component>

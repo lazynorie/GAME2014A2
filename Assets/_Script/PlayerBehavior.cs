@@ -41,7 +41,8 @@ public class PlayerBehavior : MonoBehaviour
     
     private Rigidbody2D _rigidbody2D;
     private Animator animatorcontroller;
-
+    private GameController _gameController;
+    
     public UnityEvent playerGetHitEvent;
     
 
@@ -49,13 +50,12 @@ public class PlayerBehavior : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         animatorcontroller = GetComponent<Animator>();
-
-        healthPoint = 3;
+        
         
         //Assign sounds
         playerGetHitEvent.AddListener(OnPlayerGetHit);
-        
 
+        _gameController = GameObject.FindObjectOfType<GameController>();
 
     }
 
@@ -75,7 +75,7 @@ public class PlayerBehavior : MonoBehaviour
         healthPoint--;
         audioSource.clip = SoundClip[1];
         audioSource.Play();
-        transform.position = playerSpawnPoint.transform.position;
+        transform.position = _gameController.currentSpawnPoint.position;
     }
 
     private void CheckIfDead()
