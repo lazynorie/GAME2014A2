@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8a8aed90-c1e4-45ce-b019-ceeb82791f49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAME2014A2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAME2014A2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Script/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/AndroidLogcatSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/AndroidLogcatSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2GDD.docx" beforeDir="false" afterPath="$PROJECT_DIR$/A2GDD.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CoinController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CoinController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheEnd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheEnd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/CheckPointController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/CheckPointController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/JumpSoundClip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/JumpSoundClip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/MainMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/ScoreManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +98,8 @@
       <workItem from="1637517651419" duration="4000" />
       <workItem from="1637519317889" duration="6159000" />
       <workItem from="1637551996576" duration="95000" />
-      <workItem from="1639248127673" duration="44058000" />
+      <workItem from="1639248127673" duration="44649000" />
+      <workItem from="1639367741004" duration="95000" />
     </task>
     <servers />
   </component>
