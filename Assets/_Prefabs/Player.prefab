@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8248062532124218593}
   - component: {fileID: 855828445389359542}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: JumpSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7564356516584193514}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundOrigin
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 7564356517354432881}
   - component: {fileID: 7564356517354432880}
   - component: {fileID: 7564356517354432892}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -314,7 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1155c73b1a8c934b9f9fd8ab8903cf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoint: 0
+  playerSpawnPoint: {fileID: 0}
+  healthPoint: 3
   healthText: {fileID: 0}
   joystick: {fileID: 0}
   horizontalForce: 8
@@ -337,3 +338,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4a1131a2046aade40be12a614834476e, type: 3}
   - {fileID: 8300000, guid: 93a68d3e63f4b6e41ad12942c07e5326, type: 3}
   audioSource: {fileID: 855828445389359542}
+  playerGetHitEvent:
+    m_PersistentCalls:
+      m_Calls: []

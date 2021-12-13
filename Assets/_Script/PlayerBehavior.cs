@@ -7,11 +7,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class PlayerBehavior : MonoBehaviour
 {
+    [Header("Spawn Point")] public GameObject playerSpawnPoint;
     [Header("Health")] public int healthPoint;
     public Text healthText;
     [Header("Touch Input")] 
@@ -38,8 +41,8 @@ public class PlayerBehavior : MonoBehaviour
     
     private Rigidbody2D _rigidbody2D;
     private Animator animatorcontroller;
-    
-    
+
+    public UnityEvent playerGetHitEvent;
     
 
     void Start()
@@ -50,7 +53,7 @@ public class PlayerBehavior : MonoBehaviour
         healthPoint = 3;
         
         //Assign sounds
-        
+        playerGetHitEvent.AddListener(OnPlayerGetHit);
         
 
 
@@ -65,6 +68,14 @@ public class PlayerBehavior : MonoBehaviour
         CheckIfDead();
         healthText.text = "LIFE:" + healthPoint.ToString();
        
+    }
+    
+    private void OnPlayerGetHit()
+    {
+        healthPoint--;
+        audioSource.clip = SoundClip[1];
+        audioSource.Play();
+        transform.position = playerSpawnPoint.transform.position;
     }
 
     private void CheckIfDead()
