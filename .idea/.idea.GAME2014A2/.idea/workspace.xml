@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a8aed90-c1e4-45ce-b019-ceeb82791f49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAME2014A2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAME2014A2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sequences/Level1Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/Level1Timeline.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sequences/StartMenuTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sequences/StartMenuTimeline.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/World.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/World.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/GameOver.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Script/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Script/LavaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/LavaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Script/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/MainMenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Script/PlayerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/PlayerBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Script/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Script/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Script/EnemyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/AndroidLogcatSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/AndroidLogcatSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +94,7 @@
       <workItem from="1637517651419" duration="4000" />
       <workItem from="1637519317889" duration="6159000" />
       <workItem from="1637551996576" duration="95000" />
-      <workItem from="1639248127673" duration="42553000" />
+      <workItem from="1639248127673" duration="44058000" />
     </task>
     <servers />
   </component>

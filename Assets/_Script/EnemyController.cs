@@ -122,7 +122,7 @@ public class EnemyController : MonoBehaviour
             Physics2D.CircleCast(topOrigin.position, topRadius, Vector2.down, topRadius, topLayerMask);
         if (hurt)
         { 
-            playerRigidbody2D.AddForce(new Vector2(0,1000));
+            playerRigidbody2D.AddForce(new Vector2(0,500));
             scoreM.score += 100;
             Destroy(this.gameObject);
         }
